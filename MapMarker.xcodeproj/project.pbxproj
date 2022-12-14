@@ -11,6 +11,7 @@
 		B45B1516294A161900EF5C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45B1515294A161900EF5C0D /* ContentView.swift */; };
 		B45B1518294A161A00EF5C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45B1517294A161A00EF5C0D /* Assets.xcassets */; };
 		B45B151C294A161A00EF5C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45B151B294A161A00EF5C0D /* Preview Assets.xcassets */; };
+		B45B1523294A162F00EF5C0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45B1522294A162F00EF5C0D /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B45B1517294A161A00EF5C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45B1519294A161A00EF5C0D /* MapMarker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapMarker.entitlements; sourceTree = "<group>"; };
 		B45B151B294A161A00EF5C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B45B1522294A162F00EF5C0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		B45B1512294A161900EF5C0D /* MapMarker */ = {
 			isa = PBXGroup;
 			children = (
-				B45B1513294A161900EF5C0D /* MapMarkerApp.swift */,
+				B45B1522294A162F00EF5C0D /* MainView.swift */,
 				B45B1515294A161900EF5C0D /* ContentView.swift */,
+				B45B1513294A161900EF5C0D /* MapMarkerApp.swift */,
 				B45B1517294A161A00EF5C0D /* Assets.xcassets */,
 				B45B1519294A161A00EF5C0D /* MapMarker.entitlements */,
 				B45B151A294A161A00EF5C0D /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45B1516294A161900EF5C0D /* ContentView.swift in Sources */,
+				B45B1523294A162F00EF5C0D /* MainView.swift in Sources */,
 				B45B1514294A161900EF5C0D /* MapMarkerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
