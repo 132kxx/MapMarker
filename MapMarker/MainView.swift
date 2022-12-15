@@ -15,10 +15,13 @@ struct MainView: View {
     
     var body: some View {
         Map(coordinateRegion: $region,
-                  annotationItems: [place])
+            showsUserLocation: true, annotationItems: [place])
         { place in
             MapAnnotation(coordinate: place.location) {
-                Rectangle()
+                Image(systemName: "mappin.and.ellipse")
+                    .resizable()
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(.red)
             }
         }
     }
@@ -26,7 +29,7 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(place: .init(lat: 37.5148181, long: 127.0617657), region: MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.5148181, longitude: 127.0617657), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        MainView(place: .init(lat: 35.1418923, long: 129.08884513801985), region: MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 35.1418923, longitude: 129.08884513801985), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
                  )
     }
 }
